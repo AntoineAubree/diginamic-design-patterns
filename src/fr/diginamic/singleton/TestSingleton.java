@@ -7,6 +7,7 @@ public class TestSingleton {
 		System.out.println(cs.getValue("db.url"));
 		System.out.println(cs.getValue("db.user"));
 		System.out.println(cs.getValue("db.password"));
+
 	}
 
 }

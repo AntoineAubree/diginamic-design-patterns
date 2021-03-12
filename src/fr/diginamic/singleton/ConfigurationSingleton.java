@@ -12,9 +12,9 @@ public class ConfigurationSingleton {
 	}
 
 	public static ConfigurationSingleton getInstance() {
-		return instance;
+		return ConfigurationSingleton.instance;
 	}
-	
+
 	public String getValue(String key) {
 		return this.resourceBundle.getString(key);
 	}
