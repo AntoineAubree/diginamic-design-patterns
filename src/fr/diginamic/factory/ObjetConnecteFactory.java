@@ -15,7 +15,7 @@ import fr.diginamic.factory.entites.TypeObjetConnecte;
  */
 public class ObjetConnecteFactory {
 
-	public static ObjetConnecte creerObjetCOnnecte(TypeObjetConnecte typeObjetConnecte, float limiteVolts) {
+	public static ObjetConnecte creerObjetConnecte(TypeObjetConnecte typeObjetConnecte, float limiteVolts) {
 		if (typeObjetConnecte.equals(TypeObjetConnecte.TELEPHONE_PORTABLE)) {
 			return new TelephonePortable(limiteVolts);
 		} else if (typeObjetConnecte.equals(TypeObjetConnecte.TABLETTE)) {

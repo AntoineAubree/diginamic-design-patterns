@@ -16,9 +16,8 @@ public class TelephonePortable extends ObjetConnecte {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("TelephonePortable [LimiteVolts()=");
-		builder.append(getLimiteVolts());
-		builder.append("]");
+		builder.append("TelephonePortable : ");
+		builder.append(super.toString());
 		return builder.toString();
 	}
 

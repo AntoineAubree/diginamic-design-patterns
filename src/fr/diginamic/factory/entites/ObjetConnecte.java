@@ -15,7 +15,13 @@ public abstract class ObjetConnecte {
 		this.limiteVolts = limiteVolts;
 	}
 
-	public abstract String toString();
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("LimiteVolts = ");
+		builder.append(limiteVolts);
+		return builder.toString();
+	}
 
 	public float getLimiteVolts() {
 		return limiteVolts;

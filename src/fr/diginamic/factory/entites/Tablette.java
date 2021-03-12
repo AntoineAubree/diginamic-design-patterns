@@ -16,9 +16,8 @@ public class Tablette extends ObjetConnecte {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Tablette [LimiteVolts()=");
-		builder.append(getLimiteVolts());
-		builder.append("]");
+		builder.append("Tablette : ");
+		builder.append(super.toString());
 		return builder.toString();
 	}
 
